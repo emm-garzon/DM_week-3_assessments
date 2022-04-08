@@ -1,14 +1,17 @@
 console.log("hello world");
 
+const handleSubmit = (evt) => {
+  evt.preventDefault();
 
+  alert(`Your form has been successfully submitted!`);
+};
 
-function handleSubmit(evt) {
-	evt.preventDefault();
-	
-	console.log('form submit');
-}
+let form = document.querySelector("form#contact");
 
+form.addEventListener("submit", handleSubmit);
 
-let form = document.querySelector('form#contact');
+let imgDuck = document.querySelector("img");
 
-form.addEventListener('submit', handleSubmit);
+imgDuck.addEventListener("mouseover", () => {
+  alert("I see forever in your eyes!");
+});

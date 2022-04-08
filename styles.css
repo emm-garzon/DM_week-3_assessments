@@ -8,31 +8,53 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+  border-bottom: 2px solid orange;
 }
 
 ol {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .crumb {
-	margin-right: 2em;
-	display: inline;
+  margin-right: 2em;
+  display: inline;
 }
 
 a {
-	color: orange;
+  color: orange;
 }
 
 a:visited {
-	color: crimson;
+  color: crimson;
 }
 
-
 input {
-	display: block;
+  display: block;
 }
 
 img {
-	max-width: 300px;
+  max-width: 300px;
+}
+
+#places {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vac-spot {
+  margin-left: 50px;
+}
+
+.about-me-btns {
+  background-color: yellow;
+  color: blue;
+  border: none;
+  font-size: 15px;
+  padding: 15px 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+footer {
+  margin-top: 25px;
 }

@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello, World!</p>
 
-	<content>
-		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+      <img
+        src="https://www.museumofplay.org/app/uploads/2021/08/rubber-duck_0.jpg"
+      />
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+      <p>
+        Good morning! And if I don't see you, good afternoon, good evening, and
+        good night!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        doloremque blanditiis, culpa, consequatur accusamus rem beatae
+        cupiditate quas, magnam hic vero est quam officia corporis eligendi
+        nihil ut laudantium quibusdam?
+      </p>
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
+      <p>Mirror, Mirror on the wall...</p>
+      <ul>
+        <li>Your eyes remind me of moonlit pools.</li>
+        <li>Your smile shines brighter than 1000 suns.</li>
+        <li>You made your bed!</li>
+      </ul>
 
-			Message:
-			<input type="textarea">
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
 
-			<input type="submit">
+        Message:
+        <input type="textarea" />
 
+        <p>How did we come about the pleasure of your visit:</p>
+        <input type="checkbox" id="google" value="google" />
+        <label for="google">Google</label>
+        <input type="checkbox" id="friend" value="friend" />
+        <label for="friend">Friend</label>
+        <input type="checkbox" id="other" value="other" />
+        <label for="other">Other</label>
+        <br />
+        <input type="submit" />
+      </form>
+    </content>
 
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>
