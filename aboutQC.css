@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  background-color: grey;
+}
+
+#town-logo {
+  margin-right: 100px;
+}
+
+.nav-links {
+  margin-right: 75px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+#first-banner {
+  background-image: url(https://queencreekmarketplace.com/wp-content/uploads/sites/3/2014/07/header-queencreekmarketplace.jpg);
+  height: 450px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+#qc-market {
+  right: 200px;
+  bottom: 260px;
+  font-weight: bold;
+  font-size: 35px;
+  position: absolute;
+  color: white;
+}
+
+#first-box {
+  position: absolute;
+  color: white;
+  border: 5px solid white;
+  bottom: 150px;
+  right: 200px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#learn-more {
+  padding: 5px 35px;
+}
+
+#first-box:hover {
+  background-color: white;
+  color: black;
+}
+
+#second-banner {
+  background-image: url(https://cdn.businessyab.com/assets/uploads/a0ee72fe0d4990d6e300d03f546ba744_-united-states-arizona-maricopa-county-queen-creek-east-appleby-road-19535-mansel-carter-oasis-park-480-358-3700.jpg);
+  height: 450px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+#qc-parks {
+  left: 200px;
+  bottom: 260px;
+  font-weight: bold;
+  font-size: 35px;
+  position: absolute;
+  color: white;
+}
+
+#second-box {
+  position: absolute;
+  color: white;
+  border: 5px solid white;
+  bottom: 150px;
+  left: 200px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#second-box:hover {
+  background-color: white;
+  color: black;
+}
+
+#third-banner {
+  background-image: url(https://www.roverpass.com/system/pictures/images/000/013/563/big/schnepf-farms-queen-creek-az-0.jpg);
+  height: 450px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+#third-box:hover {
+  background-color: white;
+  color: black;
+}
+
+#schnepf-farms {
+  right: 200px;
+  bottom: 260px;
+  font-weight: bold;
+  font-size: 35px;
+  position: absolute;
+  color: white;
+}
+
+#third-box {
+  position: absolute;
+  color: white;
+  border: 5px solid white;
+  bottom: 150px;
+  right: 200px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  height: 85px;
+}
+
+.footer-links {
+  margin-top: 35px;
+  margin-right: 50px;
+  text-transform: lowercase;
+  font-weight: lighter;
+  font-size: 12px;
+}
